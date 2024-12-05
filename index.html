@@ -1,19 +1,68 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="minimum-scale=1, initial-scale=1, width=device-width"
-    />
-    <title>Invalid URL!</title>
-  </head>
-  <body>
-    <p>Short URL is invalid! (Or you have been spamming the site too much)</p>
-    <p>
-      <a href="https://github.com/nelsontky/gh-pages-url-shortener">
-        Learn more about this URL shortener
-      </a>
-    </p>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Secureatlas - Atlas of Safe Links</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .content {
+      text-align: center;
+      margin: 50px auto;
+      padding: 20px;
+      max-width: 600px;
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .loader {
+      margin: 20px auto;
+      border: 8px solid #f3f3f3;
+      border-radius: 50%;
+      border-top: 8px solid #4CAF50;
+      width: 50px;
+      height: 50px;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Header Section -->
+<header>
+  <h1>SecureAtlas - Buy safely</h1>
+</header>
+
+<!-- Main Content Section -->
+<div class="content">
+  <h2>The Atlas of Safe Links</h2>
+  <p>Welcome!</p>
+  <p>Our website is a resource that provides only verified, safe links to various products from online stores.</p>
+  <p>We manually check the listings for spam and publish only content that we believe is safe to purchase. The links are current at the time of publication.</p>
+  <p>We are not responsible for the quality of the products, as we do not sell anything, nor for delivery, as we do not handle any shipping.</p>
+  <div class="loader"></div>
+</div>
+
+
+</body>
 </html>
